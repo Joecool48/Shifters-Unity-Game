@@ -37,6 +37,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4853191371780452}
   - component: {fileID: 114842660413321674}
+  - component: {fileID: 114082953703496346}
+  - component: {fileID: 114880737667692560}
+  - component: {fileID: 20041848467481756}
   m_Layer: 0
   m_Name: Rectangular Spinner
   m_TagString: Untagged
@@ -102,6 +105,41 @@ Transform:
   m_Father: {fileID: 4853191371780452}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20041848467481756
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927930502442830}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!61 &61231532530297178
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -152,6 +190,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5, y: 0.3}
   m_EdgeRadius: 0
+--- !u!114 &114082953703496346
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927930502442830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a03ab090522b64e8e6ad9bcdb3707f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wireColor: {r: 1, g: 1, b: 1, a: 1}
+  UnitsSize: 1
+  constraint: 1
+  camera: {fileID: 0}
 --- !u!114 &114842660413321674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -165,7 +218,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RotateSpeed: 1
   Rotating: 1
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color:
+    serializedVersion: 2
+    rgba: 0
+--- !u!114 &114880737667692560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1927930502442830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4291c3c971195c459191abbed2309a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorType: 0
+  anchorOffset: {x: 0, y: 0, z: 0}
 --- !u!212 &212419049285740850
 SpriteRenderer:
   m_ObjectHideFlags: 1

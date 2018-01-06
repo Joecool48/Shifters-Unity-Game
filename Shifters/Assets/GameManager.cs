@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour {
 	//Initially don't move at all
 	protected int MovementType = -1;
 	protected enum MovementOptions {SimpleForwardMovement = 0,SimpleBackwardMovement = 1,SimpleRightMovement = 2,SimpleLeftMovement = 3,RandomMovement = 4};
+	public bool gameRunning = true;
 	// Use this for initialization
 	void Start () {
 		init ();
@@ -24,7 +25,11 @@ public class GameManager : MonoBehaviour {
 		GameEndScreen = GameObject.Find ("GameEnd");
 		GameEndScreen.SetActive (false);
 	}
-	
+	public void GameEnd () {
+		gameRunning = false;
+		player.SetActive (false);
+		GameEndScreen.SetActive (true);
+	}
 	// Update is called once per frame
 	void Update () {
 		ChooseCameraMovement ();

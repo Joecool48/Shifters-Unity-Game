@@ -54,6 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4552378196465022}
   - component: {fileID: 114679105325369872}
+  - component: {fileID: 114831303474721998}
   m_Layer: 0
   m_Name: Rounded Rectangle Spinner
   m_TagString: Untagged
@@ -166,6 +167,19 @@ MonoBehaviour:
   RotateSpeed: 0
   Rotating: 0
   color: {r: 0, g: 0.2965517, b: 1, a: 0}
+--- !u!114 &114831303474721998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1999589155845112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4291c3c971195c459191abbed2309a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorType: 0
+  anchorOffset: {x: 0, y: 0, z: 0}
 --- !u!212 &212254534870028736
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212064714379670894}
   - component: {fileID: 114486703520101456}
   - component: {fileID: 58938491857737592}
+  - component: {fileID: 114966616818333984}
   m_Layer: 0
   m_Name: Hole
   m_TagString: Untagged
@@ -99,6 +100,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HoleSpinSpeed: 0.5
+--- !u!114 &114966616818333984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1266321819418222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4291c3c971195c459191abbed2309a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anchorType: 0
+  anchorOffset: {x: 0, y: 0, z: 0}
 --- !u!212 &212064714379670894
 SpriteRenderer:
   m_ObjectHideFlags: 1

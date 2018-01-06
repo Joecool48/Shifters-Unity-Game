@@ -10,7 +10,7 @@ public class RectSpinner : MonoBehaviour {
 	private SpriteRenderer VerticalSprite;
 	private GameObject Horizontal;
 	private GameObject Vertical;
-	public Color color;
+	public Color32 color;
 	// Use this for initialization
 	void Start () {
 		RectSpin = GameObject.Find ("Rectangular Spinner");
@@ -30,9 +30,10 @@ public class RectSpinner : MonoBehaviour {
 		}
 		ChangeColor (color);
 	}
-	void ChangeColor (Color color) {
-		HorizontalSprite.color = color;
-		VerticalSprite.color = color;
+	void ChangeColor (Color32 color) {
+		foreach(SpriteRenderer c in GetComponents<SpriteRenderer> ()) {
+			c.material.color = color;
+		}
 	}
 	void Scale (Vector3 size) {
 		HorizontalSprite.transform.localScale += size;
