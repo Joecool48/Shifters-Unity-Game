@@ -464,12 +464,12 @@ Prefab:
     - target: {fileID: 224392899050582114, guid: 82cfbbed2e6ca574398b35ca3445daec,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 258.5
+      value: 306
       objectReference: {fileID: 0}
     - target: {fileID: 224392899050582114, guid: 82cfbbed2e6ca574398b35ca3445daec,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 211
+      value: 204
       objectReference: {fileID: 0}
     - target: {fileID: 224392899050582114, guid: 82cfbbed2e6ca574398b35ca3445daec,
         type: 2}
@@ -596,6 +596,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2020236301}
+    - target: {fileID: 1848797823734390, guid: 82cfbbed2e6ca574398b35ca3445daec, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 82cfbbed2e6ca574398b35ca3445daec, type: 2}
   m_IsPrefabParent: 0
@@ -653,7 +657,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.4081238
+  orthographic size: 0.33333334
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
