@@ -18,7 +18,6 @@ public class RectSpinner : MonoBehaviour {
 		Vertical = GameObject.Find ("Vertical Rectangle");
 		HorizontalSprite = Horizontal.GetComponent<SpriteRenderer> ();
 		VerticalSprite = Vertical.GetComponent<SpriteRenderer> ();
-		RotateSpeed = 1;
 		Rotating = true;
 	}
 	

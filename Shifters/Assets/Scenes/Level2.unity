@@ -449,6 +449,11 @@ Prefab:
       propertyPath: anchorOffset.y
       value: 0.09
       objectReference: {fileID: 0}
+    - target: {fileID: 114842660413321674, guid: f8effc4cdcad6eb4b8355e993ec3cf2a,
+        type: 2}
+      propertyPath: RotateSpeed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114082953703496346, guid: f8effc4cdcad6eb4b8355e993ec3cf2a, type: 2}
     - {fileID: 20041848467481756, guid: f8effc4cdcad6eb4b8355e993ec3cf2a, type: 2}
@@ -464,12 +469,12 @@ Prefab:
     - target: {fileID: 224392899050582114, guid: 82cfbbed2e6ca574398b35ca3445daec,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 258.5
+      value: 268.5
       objectReference: {fileID: 0}
     - target: {fileID: 224392899050582114, guid: 82cfbbed2e6ca574398b35ca3445daec,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 211
+      value: 204
       objectReference: {fileID: 0}
     - target: {fileID: 224392899050582114, guid: 82cfbbed2e6ca574398b35ca3445daec,
         type: 2}
@@ -653,7 +658,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.4081238
+  orthographic size: 0.3798883
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

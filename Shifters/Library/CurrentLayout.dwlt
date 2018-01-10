@@ -108,7 +108,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 1330
+  controlID: 1700
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 1331
+  controlID: 1701
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 1303
+  controlID: 1702
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 221}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 1304
+  controlID: 1703
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -389,9 +389,9 @@ MonoBehaviour:
     height: 425
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: dc2a0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: a6fbffff0000000042280000ae280000
+    m_SelectedIDs: 86abffff
+    m_LastClickedID: -21626
+    m_ExpandedIDs: 86abffff9aabffffa6fbffff0000000046280000ba280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -410,7 +410,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
   m_ExpandedScenes:
-  - PauseScreen
+  - Level2
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -563,8 +563,8 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b0270000
-    m_LastClickedID: 10160
+    m_SelectedIDs: b4270000
+    m_LastClickedID: 10164
     m_ExpandedIDs: 000000004227000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000743300006652000000000000343f00007c42dbff78270000662b0000d82700008c270000e424f6ff52790000182b00005c490000d02a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
